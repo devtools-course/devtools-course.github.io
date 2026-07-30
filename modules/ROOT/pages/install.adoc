@@ -1,0 +1,335 @@
+= Install guides
+
+NOTE: We're going to use `dnf` for RHEL-like Linux. However, you may use `yum` instead.
+
+NOTE: We're going to use `apt` for RHEL-like Linux. However, you may use `apt-get` instead.
+
+WARNING: Remember to run `apt update` before installing any packages with `apt`.
+
+.Suggested order:
+* <<bash,Bash & sed>> (Mac OS users)
+* <<cc, C/C++ compilers>> or <<jdk, JDK tools>>
+* <<git, Git>>
+* <<docker, Docker>>
+* <<shellcheck, Shellcheck>>
+* <<fenrir, Fenrir>>
+
+[#bash]
+== Bash & sed (Mac OS)
+
+[,console]
+----
+$ brew install gnu-sed
+----
+
+Verify the installation:
+[,console]
+----
+$ gsed --version
+----
+
+IMPORTANT: Make sure you have bash version 5.0.0+ installed. Otherwise, follow the steps below.
+
+[,console]
+----
+$ brew install bash
+$ sudo ln -s /opt/homebrew/bin/bash /usr/local/bin/bash
+----
+
+Verify the installation:
+[,console]
+----
+$ bash --version
+GNU bash, version 5.3.0(1)-release (x86_64-redhat-linux-gnu)
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+----
+
+[#cc]
+== C/C++ Compilers & Make, CMake
+
+.Mac OS
+[%collapsible]
+====
+[,console]
+----
+$ brew install gcc make cmake
+----
+====
+
+.Debian-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ apt install build-essential cmake
+----
+====
+
+.RHEL-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ dnf install make gcc gcc-c++ cmake
+----
+====
+
+To verify the installation run these commands:
+[,console]
+----
+$ gcc --version
+gcc (GCC) 14.3.1 20250808 (Red Hat 14.3.1-1)
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+$ g++ --version
+g++ (GCC) 14.3.1 20250808 (Red Hat 14.3.1-1)
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+$ make --version
+GNU Make 4.4.1
+Built for x86_64-redhat-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+$ cmake --version
+cmake version 3.31.11
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+----
+
+[#jdk]
+== JDK
+
+.Get hardware architecture
+[%collapsible]
+====
+Run `uname -m`:
+
+* `x86_64` is x64
+* `aarch64` and `arm64` is Arm 64
+====
+
+Go to https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html[the Oracle website] and download a *Compressed Archive* (`.tar.gz`) file (Find the one built for your platform).
+
+[,console]
+----
+$ sudo tar xvf jdk-<DESCRIPTION>_bin.tar.gz -C /opt
+jdk-25.0.3/LICENSE
+jdk-25.0.3/README
+jdk-25.0.3/bin/jar
+jdk-25.0.3/bin/jarsigner
+jdk-25.0.3/bin/java
+jdk-25.0.3/bin/javac
+jdk-25.0.3/bin/javadoc
+jdk-25.0.3/bin/javap
+jdk-25.0.3/bin/jcmd
+jdk-25.0.3/bin/jconsole
+jdk-25.0.3/bin/jdb
+jdk-25.0.3/bin/jdeprscan
+jdk-25.0.3/bin/jdeps
+jdk-25.0.3/bin/jfr
+jdk-25.0.3/bin/jhsdb
+...
+----
+
+Add these lines to the end of `~/.zshrc` or `~/.bashrc` file:
+[,bash]
+----
+JAVA_HOME=/opt/jdk-25.0.3 # Use your version!!!
+PATH="$PATH:$JAVA_HOME/bin"
+----
+
+Verify the installation:
+[,console]
+----
+$ java -version
+java version "25.0.3" 2026-04-21 LTS
+Java(TM) SE Runtime Environment (build 25.0.3+9-LTS-195)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0.3+9-LTS-195, mixed mode, sharing)
+$ javadoc --version
+javadoc 25.0.3
+----
+
+[#git]
+== Git
+
+.Mac OS
+[%collapsible]
+====
+[,console]
+----
+$ brew install git
+----
+====
+
+.Debian-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ apt install git
+----
+====
+
+.RHEL-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ dnf install git
+----
+====
+
+Verify the installation:
+[,console]
+----
+$ git --version
+git version 2.53.0
+----
+
+[#docker]
+== Docker
+
+Install:
+
+.Linux
+[%collapsible]
+====
+[,console]
+----
+$ curl -sSL https://get.docker.com/ | sudo sh
+$ sudo usermod -aG docker "$USER"
+$ newgrp docker
+$ sudo service docker restart
+----
+====
+
+.Mac OS
+[%collapsible]
+====
+Follow https://docs.docker.com/desktop/setup/install/mac-install/[the official guide].
+====
+
+
+Verify the installation:
+[,console]
+----
+$ docker run --rm hello-world
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+----
+
+To check that multiplatform build is supported, run this command:
+[.wrap,console]
+----
+$ docker buildx ls --no-trunc
+NAME/NODE     DRIVER/ENDPOINT   STATUS    BUILDKIT   PLATFORMS
+default*      docker
+ \_ default    \_ default       running   v0.29.0    linux/amd64, linux/amd64/v2, linux/amd64/v3, linux/arm64, linux/riscv64, linux/ppc64, linux/ppc64le, linux/s390x, linux/mips64le, linux/mips64, linux/loong64, linux/arm/v7, linux/arm/v6
+----
+
+Make sure `linux/amd64` and `linux/arm64` are present. Otherwise, install `binfmt-support` and run this command:
+[,console]
+----
+$ docker run --privileged --rm tonistiigi/binfmt --install all
+----
+
+[#shellcheck]
+== Shellcheck
+
+.Get hardware architecture
+[%collapsible]
+====
+Run `uname -m`:
+
+* `x86_64` is x64
+* `aarch64` and `arm64` is Arm 64
+====
+
+Go to https://github.com/koalaman/shellcheck/releases/latest[the latest project release] and download a `.tar.gz` archive (Find the one built for your platform).
+
+[,console]
+----
+$ tar xvf shellcheck-<DESCRIPTION>.tar.gz -C /tmp
+shellcheck-v0.11.0/LICENSE.txt
+shellcheck-v0.11.0/README.txt
+shellcheck-v0.11.0/shellcheck
+$ sudo mv /tmp/shellcheck*/shellcheck /usr/local/bin/
+----
+
+Verify the installation:
+[,console]
+----
+$ shellcheck --version
+ShellCheck - shell script analysis tool
+version: 0.11.0
+license: GNU General Public License, version 3
+website: https://www.shellcheck.net
+----
+
+[#fenrir]
+== Fenrir
+
+Debian-like Linux::
+Download `fenrir-<VERSION>.noarch.deb` from https://github.com/1BAH/fenrir/releases/latest. Then run `apt install fenrir-<VERSION>.noarch.deb`.
+
+RHEL-like Linux::
+Download `fenrir-<VERSION>.noarch.rpm` from https://github.com/1BAH/fenrir/releases/latest. Then run `dnf install fenrir-<VERSION>.noarch.deb` (or `yum`).
+
+Other::
+Install `asciidoc` to compile man pages or use `-nadoc` option:
+[,console]
+----
+$ git clone https://github.com/1BAH/fenrir.git /tmp/frir
+$ cd /tmp/frir/src/main/fenrir/cli
+$ sudo ./install-fenrir -nadoc
+----
+
+Verify the installation:
+[,console]
+----
+$ fenrir i
+  _____               _
+ |  ___|__ _ __  _ __(_)_ __
+ | |_ / _ \ '_ \| '__| | '__|
+ |  _|  __/ | | | |  | | |
+ |_|  \___|_| |_|_|  |_|_|
+
+------------------------------------------------------------------
+Current settings:
+    * Remote: https://github.com/1BAH/fenrir-tests
+    * Current task: -
+    * Blocking: 0
+    * Execution mode: 111 (Inline-Host-Docker)
+------------------------------------------------------------------
+Run settings:
+
+------------------------------------------------------------------
+fenrir 2026.0+1, 2026
+@1BAH
+----
