@@ -1,6 +1,6 @@
 .xref:index[About course]
 * xref:ai-policy.adoc[]
-* https://progtech-course.github.io/book[Course notes]
+* https://devtools-course.github.io/book[Course notes]
 * xref:install.adoc[]
 
 ._Lectures_
