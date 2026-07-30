@@ -18,11 +18,25 @@ asciidoc:
     experimental: ''
     page-pagination: ''
     allow-uri-read: ''
+    source-highlighter: shiki
   extensions:
     - ./lib/remote-include-processor.js
 
 antora:
   extensions:
+    - require: 'antora-shiki-extension'
+      use_line_numbers: true
+      theme: taekwandodo-light
+      languages:
+        - java
+        - cpp
+        - c
+        - bash
+        - console
+        - json
+        - xml
+        - yaml
+
     - require: '@antora/lunr-extension'
       languages: [en, ru]
 
