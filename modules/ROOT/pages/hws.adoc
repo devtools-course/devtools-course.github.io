@@ -15,11 +15,11 @@ h| Assignment h| Description h| Points
 
 |git-ess
 | Essential git commands
-| 60
+| 80
 
 |git-ad
 | Git extensions & advanced setup
-| 40
+| 50
 
 |shell-setup
 | Configure shells (`rc`-files)
@@ -71,11 +71,11 @@ h| Assignment h| Description h| Points
 
 |make^C^
 | Writing Makefiles
-| 50
+| 80
 
 | jigsaw^J^
 | Work with JPMS
-| 50
+| 80
 
 |cmake-1^C^
 | Use CMake to build code
