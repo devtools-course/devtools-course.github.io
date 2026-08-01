@@ -1,0 +1,27 @@
+= Lecture 0
+
+:description: ProgTech: Lecture 0
+
+image::lecs/0.png[width=10%]
+
+{empty} +
+
+
+> Intro. Course structure. Grading system. ???
+
+== Video
+
+[TIP.todo]
+====
+To be published..
+====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTG-VFASS2Rk0nD4rPt006PuG6CHu8ttgfUgsvtPuPy7B2jYJLJIjn1fNS84kHLWN6qOVwUxqL9DN8-/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1l_um7sR0ApSWyHypjvJdgNN44qpj9rh3j947G4FreH4/edit?usp=sharing[Google Slides]

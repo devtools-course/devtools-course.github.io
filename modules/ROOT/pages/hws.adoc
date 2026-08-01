@@ -5,7 +5,7 @@ C/C++ specific tasks are denoted by `C`: `task^C^`
 
 
 // [cols="a,a,a"]
-[%autowidth]
+[%autowidth, options="footer"]
 |===
 h| Assignment h| Description h| Points
 
@@ -109,6 +109,7 @@ h| Assignment h| Description h| Points
 | Create & deploy a static site (Antora)
 | 50
 
+2+| Total | 1000
 |===
 
 

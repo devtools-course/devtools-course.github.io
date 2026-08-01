@@ -1,0 +1,25 @@
+= Lectures
+
+[%autowidth]
+|===
+.2+h| Idx 2+h| Description
+             h| Java h| C++
+
+
+a| xref:lecs/lec0.adoc[0] 2+| Course structure. *Linux. FS.* Linux filesystems. FHS.
+a| xref:lecs/lec1.adoc[1] 2+| *Git.* Essential commands. Repo management.
+a| xref:lecs/lec2.adoc[2] 2+| *Git.* Reset VS Revert. Three trees. Merge VS rebase. Remotes. Hooks. Submodules.
+a| xref:lecs/lec3.adoc[3] 2+| *Linux. Terminal.* Terminals. Regex. Shell startup process.
+a| xref:lecs/lec4.adoc[4] 2+| *Linux. Utils.* Signals. Systemd. Deb & rpm packages.
+a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SSH. Cryptography. Markdown & Asciidoctor. Man pages. Licenses.
+a| xref:lecs/lec6.adoc[6] 2+| *Potpourri.* HTTP. Image & data formats. Data schemas.
+a| xref:lecs/lec7.adoc[7] | *Java build.* JDK tools. CLASSPATH. Java libs. | *C/C++ build.* Compilation stages. Static & shared libs. Installation.
+a| xref:lecs/lec8.adoc[8] | *Java build.* Rin configuration. MODULEPATH. Project jigsaw. GraalVM | *C/C\++ build.* GNU Make. C/C++ project conventions.
+a| xref:lecs/lec9.adoc[9] | *Java build.* Apache maven. Basics. Profiles. | *C/C++ build.* CMake. Basics. CMake modules.
+a| xref:lecs/lec10.adoc[10] | *Java build.* Apache maven. Plugins. Repositories. Archetypes. | *C/C++ build.* CMake. Packages. Installation. Functions & macros.
+a| xref:lecs/lec11.adoc[11] 2+| *Docker.* Basics.
+a| xref:lecs/lec12.adoc[12] 2+| *Docker.* Mounts. Networks. Healthcheck. Buildx plugin.
+a| xref:lecs/lec13.adoc[13] 2+| *CI.* GitLab CI. Basics.
+a| xref:lecs/lec14.adoc[14] 2+| *CI.* GitLab pages. Antora.
+
+|===
