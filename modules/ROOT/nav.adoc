@@ -3,8 +3,11 @@
 * https://devtools-course.github.io/book[Course notes]
 * xref:install.adoc[]
 
-.xref:lecs.adoc[_Lectures_]
+.xref:lecs.adoc[Lectures]
 // * xref:lecs/lec0.adoc[]
+* _To be published_
+
+.xref:sems.adoc[Seminars]
 * _To be published_
 
 .xref:hws.adoc[Assignments]

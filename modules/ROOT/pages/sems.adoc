@@ -1,0 +1,25 @@
+= Seminars
+
+[%autowidth]
+|===
+.2+h| Idx 2+h| Description
+             h| Java h| C++
+
+
+a| xref:sems/sem0.adoc[0] 2+| *Linux. FS.* Working with FS from terminal. Text editors vim, nano, less.
+a| xref:sems/sem1.adoc[1] 2+| *Git.* GitLab. Repository setup & file conventions. Git & GitLab plugins for vscode/intellij. Forks.
+a| xref:sems/sem2.adoc[2] 2+| *Git.* Git LFS. Tags. Stash. Git practice. Q&A.
+a| xref:sems/sem3.adoc[3] 2+| *Linux. Terminal.* Terminal customisation. Modern alternatives and useful commands. Xdg-open. Nmcli. Fonts
+a| xref:sems/sem4.adoc[4] 2+| *Bash.* Bash pipelines. Bash scriptingfootnote:[Bash syntax as a home assignment].
+a| xref:sems/sem5.adoc[5] 2+| *Linux. Utils.* SSH practice. Archives.
+a| xref:sems/sem6.adoc[6] 2+| *Potpourri.* Curl. Debugging. Sanitizers. Linters.
+a| xref:sems/sem7.adoc[7] | *Java build.* IntelliJ IDEA. JDK tools. | *C/C++ build.* CLion. VS Code.
+a| xref:sems/sem8.adoc[8] | *Java build.* JPMS & graal vm practice. | *C/C++ build.* GNU Make practice.
+a| xref:sems/sem9.adoc[9] | *Java build.* Apache maven in IDEA. Practice. | *C/C++ build.* CMake in CLion/VS Code. Practice.
+a| xref:sems/sem10.adoc[10] | *Java build.* Apache maven. Practice. | *C/C++ build.* CMake. Practice.
+a| xref:sems/sem11.adoc[11] 2+| *Docker.* Busybox. Multistage build. Practice.
+a| xref:sems/sem12.adoc[12] 2+| *Docker.* DIND & DOOD. Compose plugin.
+a| xref:sems/sem13.adoc[13] 2+| *CI.* GitLab Container Registry. GitLab releases.
+a| xref:sems/sem14.adoc[14] 2+| *_??_*
+
+|===

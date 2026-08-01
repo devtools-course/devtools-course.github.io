@@ -1,0 +1,18 @@
+= Seminar 0
+
+:description: DevTools: Seminar 0
+
+image::lecs/0.png[width=10%]
+
+{empty} +
+
+
+// > Intro. Course structure. Grading system. ???
+
+// == Video
+
+[TIP.todo]
+====
+To be done..
+====
+
