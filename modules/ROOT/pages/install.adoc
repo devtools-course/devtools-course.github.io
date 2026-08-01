@@ -12,6 +12,7 @@ WARNING: Remember to run `apt update` before installing any packages with `apt`.
 * <<git, Git>>
 * <<docker, Docker>>
 * <<shellcheck, Shellcheck>>
+* <<npm, Node & Asciidoctor>>
 * <<fenrir, Fenrir>>
 
 [#bash]
@@ -292,6 +293,47 @@ license: GNU General Public License, version 3
 website: https://www.shellcheck.net
 ----
 
+[#npm]
+== Node & Asciidoctor
+
+.Mac OS
+[%collapsible]
+====
+[,console]
+----
+$ brew install node asciidoctor
+----
+====
+
+.Debian-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ apt install npm asciidoctor
+----
+====
+
+.RHEL-like Linux
+[%collapsible]
+====
+[,console]
+----
+$ dnf install nodejs asciidoctor
+----
+====
+
+Verify the installation:
+[,console]
+----
+$ npm --version
+10.9.4
+$ asciidoctor --version
+Asciidoctor 2.0.26 [https://asciidoctor.org]
+Runtime Environment (ruby 3.4.8 (2025-12-17 revision 995b59f666) +PRISM [x86_64-linux]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
+----
+
+
 [#fenrir]
 == Fenrir
 
@@ -302,12 +344,11 @@ RHEL-like Linux::
 Download `fenrir-<VERSION>.noarch.rpm` from https://github.com/1BAH/fenrir/releases/latest. Then run `dnf install fenrir-<VERSION>.noarch.deb` (or `yum`).
 
 Other::
-Install `asciidoc` to compile man pages or use `-nadoc` option:
 [,console]
 ----
 $ git clone https://github.com/1BAH/fenrir.git /tmp/frir
 $ cd /tmp/frir/src/main/fenrir/cli
-$ sudo ./install-fenrir -nadoc
+$ sudo ./install-fenrir
 ----
 
 Verify the installation:
