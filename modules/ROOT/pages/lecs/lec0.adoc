@@ -1,6 +1,6 @@
 = Lecture 0
 
-:description: ProgTech: Lecture 0
+:description: DevTools: Lecture 0
 
 image::lecs/0.png[width=10%]
 
