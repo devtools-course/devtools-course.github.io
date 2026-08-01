@@ -32,7 +32,7 @@ Iwan Kalinin <mailto:koefic.cien@gmail.com[]>
 Seminars::
 
 _Java_: Iwan Kalinin +
-_C++_: _
+_C++_: Gennadij Poljakov
 
 Teaching assistants::
 - Victoria Popova (Head TA)
