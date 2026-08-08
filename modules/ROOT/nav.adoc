@@ -11,4 +11,4 @@
 * _To be published_
 
 .xref:hws.adoc[Assignments]
-* _To be published_
+* xref:tasks/task-zero.adoc[]

@@ -1,0 +1,5 @@
+= Task 0
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-zero
+
+include::https://raw.githubusercontent.com/devtools-course/task-zero/refs/heads/main/README.adoc[]
