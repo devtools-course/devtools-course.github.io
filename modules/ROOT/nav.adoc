@@ -32,8 +32,8 @@
 
 ._Assignments_
 * https://gitlab.com/ygdrasil/progtech/tech-tasks/task-zero[Task zero]
-* https://gitlab.com/ygdrasil/progtech/tech-tasks/git-ess[Git Essentials]
-* https://gitlab.com/ygdrasil/progtech/tech-tasks/git-ad[Git Additionals]
+* https://ygdrasil.gitlab.io/pta/#/task/git-ess[Git Essentials]
+* https://ygdrasil.gitlab.io/pta/#/task/git-ad[Git Additionals]
 * https://gitlab.com/ygdrasil/progtech/tech-tasks/bash[Bash]
 * https://gitlab.com/ygdrasil/progtech/tech-tasks/ftp[Core utils: FTP]
 * https://gitlab.com/ygdrasil/progtech/tech-tasks/http[Core utils: HTTP]

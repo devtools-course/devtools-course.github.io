@@ -23,3 +23,5 @@ image::{lec-num}.png[width=10%]
 ++++
 
 https://docs.google.com/presentation/d/1ONMwt4pwW1nvttJitlb18jWS6RZzBsBNkieJCvOZUsA/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/progtech/lectures/-/tree/main/lec11[Code]

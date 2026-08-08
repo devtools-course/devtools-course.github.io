@@ -14,7 +14,7 @@ image::{lec-num}.png[width=10%]
 == Video
 
 ++++
-<iframe src="https://www.youtube.com/embed/XlmllSH9dxc" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.youtube.com/embed/PuJYQa0plls" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 ++++
 
 == Slides
@@ -23,3 +23,5 @@ image::{lec-num}.png[width=10%]
 ++++
 
 https://docs.google.com/presentation/d/1hAkUzVDaSQpj9lkIfljN0CYxRrdy7mZmpJXPVMcwDos/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/progtech/lectures/-/tree/main/lec24[Code]

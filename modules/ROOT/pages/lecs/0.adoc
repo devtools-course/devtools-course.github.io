@@ -21,3 +21,5 @@ image::0.png[width=10%]
 ++++
 
 https://docs.google.com/presentation/d/1kd8ztE9iYDo1aIwuII_OMBGPbLT0VOvu2ZhL0j4Egmw/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/progtech/lectures/-/tree/main/lec0[Code]
