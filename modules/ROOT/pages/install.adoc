@@ -338,10 +338,27 @@ Runtime Environment (ruby 3.4.8 (2025-12-17 revision 995b59f666) +PRISM [x86_64-
 == Fenrir
 
 Debian-like Linux::
-Download `fenrir-<VERSION>.noarch.deb` from https://github.com/1BAH/fenrir/releases/latest. Then run `apt install fenrir-<VERSION>.noarch.deb`.
+[,console]
+----
+$ sudo mkdir -p /usr/share/keyrings
+$ curl -fsSL https://1bah.github.io/public.key | sudo gpg --dearmor -o /usr/share/keyrings/1bah.gpg
+$ echo 'deb [signed-by=/usr/share/keyrings/1bah.gpg] https://1bah.github.io/deb stable main' | sudo tee /etc/apt/sources.list.d/1bah.list
+$ sudo apt update && sudo apt install fenrir-1bah
+----
 
 RHEL-like Linux::
-Download `fenrir-<VERSION>.noarch.rpm` from https://github.com/1BAH/fenrir/releases/latest. Then run `dnf install fenrir-<VERSION>.noarch.deb` (or `yum`).
+[,console]
+----
+$ cat << 'CONF' | sudo tee /etc/yum.repos.d/1bah.repo
+[1bah-repo]
+name=1BAH package registry
+baseurl=https://1bah.github.io/rpm
+enabled=1
+gpgcheck=1
+gpgkey=https://1bah.github.io/public.key
+CONF
+$ sudo dnf install fenrir
+----
 
 Other::
 [,console]
