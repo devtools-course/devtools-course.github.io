@@ -12,3 +12,4 @@
 
 .xref:hws.adoc[Assignments]
 * xref:tasks/task-zero.adoc[]
+* xref:tasks/task-make.adoc[]
