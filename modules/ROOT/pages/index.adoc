@@ -37,7 +37,7 @@ _C++_: Gennadij Poljakov
 Teaching assistants::
 - Victoria Popova (Head TA)
 - Polina Ushakova
-- Kirill Kudryavtsev
+- Mihail Lepenkin
 - Maxim Plotnikov
 
 Assistants::
