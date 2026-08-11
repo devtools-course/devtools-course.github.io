@@ -2,4 +2,4 @@
 :page-readme:
 :page-repo: https://github.com/devtools-course/task-make
 
-include::https://raw.githubusercontent.com/devtools-course/task-make/refs/heads/main/make/README.adoc[]
+include::https://raw.githubusercontent.com/devtools-course/task-make/refs/heads/make/make/README.adoc[]

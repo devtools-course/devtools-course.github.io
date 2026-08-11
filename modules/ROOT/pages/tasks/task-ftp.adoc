@@ -1,0 +1,5 @@
+= FTP
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-ftp
+
+include::https://raw.githubusercontent.com/devtools-course/task-ftp/refs/heads/main/README.adoc[]

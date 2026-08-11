@@ -1,0 +1,5 @@
+= HTTP
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-http
+
+include::https://raw.githubusercontent.com/devtools-course/task-http/refs/heads/main/README.adoc[]

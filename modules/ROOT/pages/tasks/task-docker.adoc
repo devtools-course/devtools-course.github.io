@@ -1,0 +1,5 @@
+= Docker
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-docker
+
+include::https://raw.githubusercontent.com/devtools-course/task-docker/refs/heads/docker/docker/README.adoc[]

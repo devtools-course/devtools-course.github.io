@@ -1,0 +1,5 @@
+= Git Essentials
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-git-ess
+
+include::https://raw.githubusercontent.com/devtools-course/task-git-ess/refs/heads/main/README.adoc[]

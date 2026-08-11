@@ -12,4 +12,11 @@
 
 .xref:hws.adoc[Assignments]
 * xref:tasks/task-zero.adoc[]
+* xref:tasks/task-git-ess.adoc[]
+* xref:tasks/task-git-ad.adoc[]
+* xref:tasks/task-bash.adoc[]
+* xref:tasks/task-http.adoc[]
+* xref:tasks/task-ftp.adoc[]
+* xref:tasks/task-ssh.adoc[]
 * xref:tasks/task-make.adoc[]
+* xref:tasks/task-docker.adoc[]

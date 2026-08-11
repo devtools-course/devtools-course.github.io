@@ -1,0 +1,5 @@
+= Git Additions
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-git-ad
+
+include::https://raw.githubusercontent.com/devtools-course/task-git-ad/refs/heads/main/README.adoc[]

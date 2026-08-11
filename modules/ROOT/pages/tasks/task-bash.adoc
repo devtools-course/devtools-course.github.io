@@ -1,0 +1,5 @@
+= Bash
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-bash
+
+include::https://raw.githubusercontent.com/devtools-course/task-bash/refs/heads/main/README.adoc[]

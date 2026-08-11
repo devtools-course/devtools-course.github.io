@@ -1,0 +1,5 @@
+= SSH
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-ssh
+
+include::https://raw.githubusercontent.com/devtools-course/task-ssh/refs/heads/main/README.adoc[]
