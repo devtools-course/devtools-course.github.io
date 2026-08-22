@@ -1,0 +1,5 @@
+= Images
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-images
+
+include::https://raw.githubusercontent.com/devtools-course/task-images/refs/heads/images/images/README.adoc[]

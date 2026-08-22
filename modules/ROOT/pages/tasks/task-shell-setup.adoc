@@ -1,0 +1,5 @@
+= Shell setup
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-setup-sh
+
+include::https://raw.githubusercontent.com/devtools-course/task-setup-sh/refs/heads/main/README.adoc[]
