@@ -1,13 +1,13 @@
 = Lecture 0
-
-:description: DevTools: Lecture 0
+:brief: Course info. Filesystem. Linux file types. FHS.
+:description: DevTools: Lecture 0. {brief}
 
 image::lecs/0.png[width=10%]
 
 {empty} +
 
 
-> Intro. Course structure. Grading system. ???
+> {brief}
 
 == Video
 

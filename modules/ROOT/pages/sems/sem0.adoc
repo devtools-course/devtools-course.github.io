@@ -1,13 +1,14 @@
 = Seminar 0
 
-:description: DevTools: Seminar 0
+:brief: Filesystem commands. Course infrastructure.
+:description: DevTools: Seminar 0. {brief}
 
 image::lecs/0.png[width=10%]
 
 {empty} +
 
 
-// > Intro. Course structure. Grading system. ???
+> {brief}
 
 // == Video
 
@@ -15,4 +16,11 @@ image::lecs/0.png[width=10%]
 ====
 To be done..
 ====
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSyVY1zUnf8XQ9gYRCxCq1z3FtVvQltc9gcP92IMI4V5_btHQaUXSPwdkdUyeL5qpDst-7Umw23EcXQ/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1iKH9B-ddpQsimvbOi-8bzYR4r8dqzqQsAEWMoNgv6Ew/edit?usp=sharing[Google Slides]
 

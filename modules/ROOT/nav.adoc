@@ -8,6 +8,7 @@
 * _To be published_
 
 .xref:sems.adoc[Seminars]
+* xref:sems/sem0.adoc[]
 * _To be published_
 
 .xref:hws.adoc[Assignments]
