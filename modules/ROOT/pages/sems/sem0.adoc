@@ -24,3 +24,51 @@ To be done..
 
 https://docs.google.com/presentation/d/1iKH9B-ddpQsimvbOi-8bzYR4r8dqzqQsAEWMoNgv6Ew/edit?usp=sharing[Google Slides]
 
+== Tasks
+
+Open https://console.cloud.google.com[Google Cloud Console] and enter the shell session.
+
+.Enter cloud shell
+image::gc-console.png[]
+
+It is a debian-like linux. Install fenrir (see xref:install.adoc[]). To install autocomplete run `sudo fenrir autocomplete bash`.
+
+=== Part 0
+
+Fenrir ID: `sem0-0`
+
+file::
+Create a regular file `reg.reg`
+
+dir::
+Create a directory `dir`
+
+link::
+Create a hard link `reg.link` that points to the `reg.reg` file
+
+symlink::
+Create a symbolic link `reg.slink` that points to the `reg.reg` file
+
+pipe::
+Create two named pipes: `pipe.in` and `pipe.out`. Write `Hello` to the first one and read from the other one
+
+=== Part 1
+
+Fenrir ID: `sem0-1`
+
+package::
+Enter dev environment (`fenrir env up _DIR_`). Install `column` utility by running `apk add util-linux`. +
+You will see this error: `sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set`. Find who is the owner of the `/usr/bin/sudo` file and change it if needed. To set the _setuid bit_ add `4` prefix to the file's octal mode. +
+Since you cannot use `sudo`, you must change the user to `root` and do the modifications within its session.
+
+file::
+Create a file `/tmp/sub/ex.txt`. Its content must be:
+
+[,txt]
+----
+1
+2
+3
+4
+5
+----

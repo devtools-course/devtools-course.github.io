@@ -4,12 +4,12 @@
 * xref:install.adoc[]
 
 .xref:lecs.adoc[Lectures]
-// * xref:lecs/lec0.adoc[]
-* _To be published_
+* xref:lecs/lec0.adoc[]
+// * _To be published_
 
 .xref:sems.adoc[Seminars]
 * xref:sems/sem0.adoc[]
-* _To be published_
+// * _To be published_
 
 .xref:hws.adoc[Assignments]
 * xref:tasks/task-zero.adoc[]

@@ -6,7 +6,7 @@
              h| Java h| C++
 
 
-a| xref:sems/sem0.adoc[0] 2+| *Linux. FS.* Working with FS from terminal. Text editors vim, nano, less.
+a| xref:sems/sem0.adoc[0] 2+| *Linux. FS.* Working with FS from terminal. Text editors: vim, nano, less.
 a| xref:sems/sem1.adoc[1] 2+| *Git.* GitLab. Repository setup & file conventions. Git & GitLab plugins for vscode/intellij. Forks.
 a| xref:sems/sem2.adoc[2] 2+| *Git.* Git LFS. Tags. Stash. Git practice. Q&A.
 a| xref:sems/sem3.adoc[3] 2+| *Linux. Terminal.* Terminal customisation. Modern alternatives and useful commands. Xdg-open. Nmcli. Fonts

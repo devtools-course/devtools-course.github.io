@@ -1,0 +1,5 @@
+= Regex
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-regex
+
+include::https://raw.githubusercontent.com/devtools-course/task-regex/refs/heads/regex/regex/README.adoc[]

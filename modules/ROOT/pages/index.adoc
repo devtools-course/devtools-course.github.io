@@ -1,10 +1,9 @@
-= Dev tools
+= Dev Tools
 // = Programming Technologies/Dev tools
 
 :description: Dev Tools course
 // :description: Programming Technologies course
 
-// TODO more???
 The course focuses on introducing students to Linux and various dev tools.
 
 == Key topics
