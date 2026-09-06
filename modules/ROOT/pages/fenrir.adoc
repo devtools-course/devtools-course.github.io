@@ -1,0 +1,116 @@
+= Fenrir
+
+== Autocomplete
+
+To install autocomplete for bash run `sudo fenrir autocomplete bash`.
+
+To install autocomplete for zsh run `fenrir autocomplete zsh`.
+
+== Task solution
+
+Each task solution must be placed in its own directory unless stated otherwise. Assume the task's fenrir id is `TASK_ID` then the project structure must follow the following format:
+
+[,text,subs="+macros"]
+----
+icon:folder[] dt2026-aut-...
+├─ icon:folder[] TASK_ID
+│  └─ ...
+└─ icon:folder[] .git
+----
+
+The name of the task branch is the same as the task directory's one: `TASK_ID`.
+
+== Select the task to test
+
+Run `*fenrir info*` to see the current task
+
+[,console]
+----
+$ fenrir info
+  _____               _
+ |  ___|__ _ __  _ __(_)_ __
+ | |_ / _ \ '_ \| '__| | '__|
+ |  _|  __/ | | | |  | | |
+ |_|  \___|_| |_|_|  |_|_|
+
+-----------------------------------------------------
+Current settings:
+    * Remote: https://github.com/1BAH/fenrir-tests
+    * Current task: sem0-1 <== THIS IS THE TASK
+    * Blocking: 0
+    * Execution mode: 001 (Inline-Host-Docker)
+-----------------------------------------------------
+----
+
+To change the task run `*fenrir task* _TASK_ID_`. This command downloads the tests and sets the `current task` parameter.
+
+CAUTION: The tests are cached: to update them use `*-f*` option. E.g. `*fenrir task -f task0*`
+
+== Run tests
+
+Info subcommand shows which run modes are allowed:
+
+[,console]
+----
+$ fenrir info
+  _____               _
+ |  ___|__ _ __  _ __(_)_ __
+ | |_ / _ \ '_ \| '__| | '__|
+ |  _|  __/ | | | |  | | |
+ |_|  \___|_| |_|_|  |_|_|
+
+-------------------------------------------------------------
+Current settings:
+    * Remote: https://github.com/1BAH/fenrir-tests
+    * Current task: sem0-1
+    * Blocking: 0
+    * Execution mode: 001 (Inline-Host-Docker) <== THIS ONE
+-------------------------------------------------------------
+----
+
+Inline::
+Runs directly on the provided repo. _Potentially unsafe_...
+
+Host::
+Clones the repo before running the tests. Therefore, it requires the solution to be commited beforehand.
+
+Docker::
+Copies the solution into a docker container
+
+To run tests execute `*fenrir run* _PATH_TO_THE_SOLUTION_`. If you want to run in `INLINE` mode, add `*-i*` option. To run inside docker use `*fenrir rund* _PATH_TO_THE_SOLUTION_` command.
+
+Tests are preceded by linters. To disable them add `*-nl*` option.
+
+To run the specific testcase only use `*--testcase* _TESTCASE_` option.
+
+== Inspect the tests
+
+To read the test scripts use `*fenrir inspect* _TESTCASE_` command. Testcases are listed inside `main` block in `*fenrir info*` output.
+
+== Dev environments
+
+To enter the task's environment run `*fenrir env up* _PATH_TO_THE_SOLUTION_`: this command will create an environment for you.
+
+NOTE: It might take some time to download and start the env. Be patient.
+
+The env's credentials are displayed when the system is ready:
+
+[,text]
+----
+[ INFO  ] Env is ready..
+[ INFO  ] ヾ(＾ ∇ ＾). Now in env
+[ INFO  ] ---------------------------------------
+  _____               _
+ |  ___|__ _ __  _ __(_)_ __
+ | |_ / _ \ '_ \| '__| | '__|
+ |  _|  __/ | | | |  | | |
+ |_|  \___|_| |_|_|  |_|_|
+
+User:     fikus
+Password: breach
+System:   Alpine Linux v3.24
+Task ID:  sem0-0
+[ INFO  ] ---------------------------------------
+----
+
+To exit the env run `exit`. You can reenter it any time. To destroy it run `fenrir env down`.

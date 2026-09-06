@@ -2,6 +2,7 @@
 * xref:ai-policy.adoc[]
 * https://devtools-course.github.io/book[Course notes]
 * xref:install.adoc[]
+* xref:fenrir.adoc[]
 
 .xref:lecs.adoc[Lectures]
 * xref:lecs/lec0.adoc[]
