@@ -1,0 +1,28 @@
+:number: 1
+= Lecture {number}
+:brief: Git. Essential commands. Reset VS Revert. Three trees. Merge VS rebase. Remotes.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTpwON7C0xrRAZuIaeoIyw0xW6e-DfVu2URoCkugqZYmCy9OORMiCxtK9himhPV8vZ6KvS_PutYd00X/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1AFWy0aLUo-eKPlkTOGWSc8oxNrag1Q8Jg6Is_3Sw8t8/edit?usp=sharing[Google Slides]

@@ -9,12 +9,12 @@ image::lecs/0.png[width=10%]
 
 > {brief}
 
-== Video
-
-[TIP.todo]
-====
-To be published..
-====
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
 // ++++
 // <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 // ++++

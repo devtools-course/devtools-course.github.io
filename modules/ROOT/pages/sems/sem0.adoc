@@ -12,11 +12,6 @@ image::lecs/0.png[width=10%]
 
 // == Video
 
-[TIP.todo]
-====
-To be done..
-====
-
 == Slides
 ++++
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSyVY1zUnf8XQ9gYRCxCq1z3FtVvQltc9gcP92IMI4V5_btHQaUXSPwdkdUyeL5qpDst-7Umw23EcXQ/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
@@ -40,17 +35,53 @@ Fenrir ID: `sem0-0`
 file::
 Create a regular file `reg.reg`
 
+.Solution
+[%collapsible]
+====
+`touch reg.reg`
+====
+
 dir::
 Create a directory `dir`
+
+.Solution
+[%collapsible]
+====
+`mkdir dir`
+====
 
 link::
 Create a hard link `reg.link` that points to the `reg.reg` file
 
+.Solution
+[%collapsible]
+====
+`ln reg.reg reg.link`
+====
+
 symlink::
 Create a symbolic link `reg.slink` that points to the `reg.reg` file
 
+.Solution
+[%collapsible]
+====
+`ln -s reg.reg reg.slink`
+====
+
 pipe::
 Create two named pipes: `pipe.in` and `pipe.out`. Write `Hello` to the first one and read from the other one
+
+.Solution
+[%collapsible]
+====
+`mkfifo pipe.in pipe.out`
+
+* 1st terminal: `echo 'Hello' > pipe.in`
+* 2nd terminal: `cat pipe.out`
+* 3rd terminal: `fenrir run -i _PATH_`
+
+If `waitpid` is not found, run `apt install util-linux-extra`
+====
 
 === Part 1
 
@@ -60,6 +91,21 @@ package::
 Enter dev environment (`fenrir env up _DIR_`). Install `column` utility by running `apk add util-linux`. +
 You will see this error: `sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set`. Find who is the owner of the `/usr/bin/sudo` file and change it if needed. To set the _setuid bit_ add `4` prefix to the file's octal mode. +
 Since you cannot use `sudo`, you must change the user to `root` and do the modifications within its session.
+
+NOTE: `root`{empty}'s password is `pass`
+
+.Solution
+[%collapsible]
+====
+[,console]
+----
+$ su -
+$ chown root /usr/bin/sudo
+$ chmod 4755 /usr/bin/sudo
+$ exit
+$ sudo apk add util-linux
+----
+====
 
 file::
 Create a file `/tmp/sub/ex.txt`. Its content must be:
@@ -72,3 +118,9 @@ Create a file `/tmp/sub/ex.txt`. Its content must be:
 4
 5
 ----
+
+.Solution
+[%collapsible]
+====
+Install `nano` and create a file.
+====

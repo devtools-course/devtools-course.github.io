@@ -6,10 +6,12 @@
 
 .xref:lecs.adoc[Lectures]
 * xref:lecs/lec0.adoc[]
+* xref:lecs/lec1.adoc[]
 // * _To be published_
 
 .xref:sems.adoc[Seminars]
 * xref:sems/sem0.adoc[]
+* xref:sems/sem1.adoc[]
 // * _To be published_
 
 .xref:hws.adoc[Assignments]

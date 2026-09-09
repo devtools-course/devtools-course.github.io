@@ -1,0 +1,42 @@
+:number: 1
+= Seminar {number}
+
+:brief: Git. GitLab & GitHub. Repository setup & file conventions. Git & GitLab plugins for vscode/intellij. Forks.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwjNLAVsoNF7pV6GUknpTe_c_Urz4AxewpSPtYE3vhgYHZqjpujzS1hqzGTmnzYqA8sJKRom1q4sJx/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1gBs1sB1_jNyHE6gWSbQnuldxF_-MGIael1mfWCdnh6A/edit?usp=sharing[Google Slides]
+
+== Tasks
+
+== Part 0
+
+Create a repo on GitLab (with `README.md`). Clone it locally. Rename the default branch and commit some changes to the `README.md` file *on GitLab*. Now pull them into your local repo.
+
+== Part 1
+
+Create a repo on GitLab (with `README.md`). Create an empty local repository. Create locally and commit a `file.txt` file to the `main` branch. Now synchronise both repos.
+
+== Part 2
+
+Create a repo on GitLab (with `README.md`). Change `README.md` and commit it *on GitLab*. Now clone it. Reset the changes and commit the updates.
+
+== Part 3
+
+Use one of the previous repos. Add https://github.com/devtools-course/task-zero[Task0 repository] as a remote. Apply some changes to its `README.adoc` and push the changes to the `origin`.
+
+== Part 4
+
+Use the previous repo. Move your `HEAD` to the detached state. Apply and commit some changes. Create a branch and push it.
