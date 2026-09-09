@@ -23,7 +23,7 @@ https://docs.google.com/presentation/d/1gBs1sB1_jNyHE6gWSbQnuldxF_-MGIael1mfWCdn
 
 == Part 0
 
-Create a repo on GitLab (with `README.md`). Clone it locally. Rename the default branch and commit some changes to the `README.md` file *on GitLab*. Now pull them into your local repo.
+Create a repo on GitLab (with `README.md`). Clone it locally. Commit some changes to the `README.md` file *on GitLab*. Now pull them into your local repo.
 
 == Part 1
 
@@ -35,7 +35,7 @@ Create a repo on GitLab (with `README.md`). Change `README.md` and commit it *on
 
 == Part 3
 
-Use one of the previous repos. Add https://github.com/devtools-course/task-zero[Task0 repository] as a remote. Apply some changes to its `README.adoc` and push the changes to the `origin`.
+Use one of the previous repos. Add https://github.com/devtools-course/task-regex[this repository] as a remote. Apply some changes to its `README.adoc` and push the changes to the `origin`.
 
 == Part 4
 
