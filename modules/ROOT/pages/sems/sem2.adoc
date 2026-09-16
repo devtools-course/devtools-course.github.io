@@ -1,0 +1,47 @@
+:number: 2
+= Seminar {number}
+
+:brief: Git. Monitoring & search. Gitflow. Tags. LFS. Bundles. Submodules.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRasrmImVjBRzhLtQ4jRT4PsY8xehADkz77yZvwqQT5arHpXPxVycdE2jeQhD7TxDXTwYfFkbHhaO03/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1Hf1lHK3ScPnqimt3wQOP-vgc2D9DHXYlp5ietT2DTAg/edit?usp=sharing[Google Slides]
+
+== Tasks
+
+== Part 0
+
+Create an empty repo. Add 5 sequential commits: each adds row `i` to the file and has message `i`. Try rebasing the last 4 of them interactively: rename, drop and squash some of them.
+
+== Part 1
+
+Clone an existing repo (e.g. https://github.com/devtools-course/task-regex[this one]) into the local repo from the part 0. What happens?
+
+== Part 2
+
+Push the repo to GitLab. Now create a new repo on GitLab and clone it/ Add the first repo as a submodule and push the changes. Try cloning the remote into `/tmp`. What happens? Update the repo from the previous part (push changes) then fetch the changes to the new one.
+
+== Part 3
+
+Create a git hook which validates commit messages:  `[␣DESCRIPTOR␣]␣DESCRIPTION`
+
+* `DESCRIPTOR` is one of `ADD`, `FIX`, `DEL`
+* `DESCRIPTION` is a sequence of latin symbols and digits
+* `␣` is a whitespace symbol
+
+To use the hook create an additional script `install`
+which installs the hook. The solution must be committed to `hooks` branch.
+
+NOTE: You can use python or other languages
