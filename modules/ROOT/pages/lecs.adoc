@@ -9,7 +9,7 @@
 a| xref:lecs/lec0.adoc[0] 2+| Course structure. *Linux. FS.* Linux filesystems. FHS.
 a| xref:lecs/lec1.adoc[1] 2+| *Git.* Essential commands. Reset VS Revert. Three trees. Merge VS rebase. Remotes.
 a| xref:lecs/lec2.adoc[2] 2+| *Git.* Internal structure. Stash. Hooks. Submodules. Diff.
-a| xref:lecs/lec3.adoc[3] 2+| *Linux. Terminal.* Terminals. Regex. Shell startup process.
+a| xref:lecs/lec3.adoc[3] 2+| *Linux. Terminal.* Terminals. SIGKILL & SIGTERM. Shell workflow & startup. Regex.
 a| xref:lecs/lec4.adoc[4] 2+| *Linux. Utils.* Signals. Systemd. Deb & rpm packages.
 a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SSH. Cryptography. Markdown & Asciidoctor. Man pages. Licenses.
 a| xref:lecs/lec6.adoc[6] 2+| *Potpourri.* HTTP. Image & data formats. Data schemas.

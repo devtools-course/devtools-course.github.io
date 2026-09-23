@@ -1,0 +1,30 @@
+:number: 3
+= Lecture {number}
+:brief: Terminals. SIGKILL & SIGTERM. Shell workflow & startup. Regex.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGRisVABRHdq4hy9yxamKe7k41YmUb4rfM1dF21gU6pj_5TyveP1t8BN2jXAAyila1_3E3EUnIgXHj/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1ef7Vvv4rMj8UZwGxT9YcyPfMC5hdc8S9ygS27Npq7ww/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l3?ref_type=heads[Code]

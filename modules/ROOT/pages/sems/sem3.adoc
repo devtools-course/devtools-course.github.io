@@ -1,0 +1,22 @@
+:number: 3
+= Seminar {number}
+
+:brief: Terminals. Share folders. Xdg-open. Fonts. Nmcli. Pipelines. Grep & sed. Find & ag.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTehPHz3UjlACo1GMA9l0ErKL4dUoDCbyV6VySkLy_yB59f3rPzQw2TuoPBx0196vIsW8GD6iJj9myo/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/16pRcHgWzV2zYTIvMEIT7h0ZmwrxuIW-LUjojPRXTcH8/edit?usp=sharing[Google Slides]
+
+
