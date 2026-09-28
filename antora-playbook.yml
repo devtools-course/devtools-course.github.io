@@ -36,6 +36,7 @@ antora:
         - json
         - xml
         - yaml
+        - csv
 
     - require: '@antora/lunr-extension'
       languages: [en, ru]

@@ -1,0 +1,110 @@
+:number: 4
+= Seminar {number}
+
+:brief: Bash
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Useful pipeline commands
+
+* `cat _FILENAME_...`  --  concatenate files' content
+* `head -n _LINES_`  --  print first `_LINES_` lines
+* `tail -n _LINES_`  --  print last `_LINES_` lines
+
+image::barsik.png[]
+
+
+* `rev`  --  revert
+* `cut -f<N> -d<D>`  --  split by the delimiter `D` and select the field `N`
+* `sort [-knr]`  --  sort the lines
+** `-k _N_`  --  sort by `_N_`{empty}'s key
+** `-n`  --  sort as numbers (_alphabetic order_ is the default one)
+** `-r`  --  descending
+* `tr _FROM_ _TO_`  --  replace
+* `tr -s _CHAR_`  --  remove
+* `uniq`  --  deal with duplications
+* `xargs`  --  move stdin to argv
+* `tee _FILENAME_`  --  log to `FILENAME`
+
+
+== Tasks
+
+> Fenrir ID: `sems/bash` +
+> Branch: `sems/bash`
+
+=== Part 0
+
+Create a script `part-0.sh` which takes a filename as an argument and prints its extension. *Use string operations!*
+
+|===
+h| args h|output
+
+| `a.sh` | `sh`
+| `script` | `{empty}`
+|===
+
+=== Part 1
+
+Create a script `part-1.sh` which reads a number `N` from stdin and prints its factorial `N!`.
+
+|===
+h| stdin h|output
+
+| `0` | `1`
+| `5` | `120`
+|===
+
+=== Part 2
+
+Create a script `part-2.sh` which has these options:
+
+* `-f|--force`
+* `-i|--input _INPUT_`
+* `-rev|--reverse`
+
+It prints `_INPUT_`{empty}'s characters separated by space. When the `force` option is on, the characters must be printed one per line. When the `rev` option is on, the characters must be printed in the reverse order. When no `input` is provided, the script must exit with a code `13`.
+
+== Part 3
+
+Create a script `part-3.sh` which reads the provided `CSV` file and prints how many values it has.
+
+|===
+h| args h|output
+
+a|
+[,csv]
+----
+a,b,c
+e,r,t
+----
+
+| `6`
+a|
+[,csv]
+----
+1,2
+----
+
+| `2`
+|===
+
+== Part 4
+
+Create a script `part-4.sh` which scans the provided directory and prints all the extensions that are present in the directory and how many files have each extension. *Your solution must be a single pipeline!*
+
+.Output example
+[]
+----
+git        1
+gitignore  1
+sh         4
+----
+
+_Use `column` command to pretty-print the output._
+
+

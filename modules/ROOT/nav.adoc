@@ -16,6 +16,7 @@
 * xref:sems/sem1.adoc[]
 * xref:sems/sem2.adoc[]
 * xref:sems/sem3.adoc[]
+* xref:sems/sem4.adoc[]
 // * _To be published_
 
 .xref:hws.adoc[Assignments]
