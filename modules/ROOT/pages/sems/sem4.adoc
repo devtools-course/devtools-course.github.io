@@ -26,7 +26,7 @@ image::barsik.png[]
 ** `-n`  --  sort as numbers (_alphabetic order_ is the default one)
 ** `-r`  --  descending
 * `tr _FROM_ _TO_`  --  replace
-* `tr -s _CHAR_`  --  remove
+* `tr -d _CHAR_`  --  remove
 * `uniq`  --  deal with duplications
 * `xargs`  --  move stdin to argv
 * `tee _FILENAME_`  --  log to `FILENAME`
