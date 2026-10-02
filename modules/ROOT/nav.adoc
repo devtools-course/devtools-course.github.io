@@ -25,6 +25,7 @@
 * xref:tasks/task-git-ad.adoc[]
 * xref:tasks/task-shell-setup.adoc[]
 * xref:tasks/task-bash.adoc[]
+* xref:tasks/task-regex.adoc[]
 * xref:tasks/task-ssh.adoc[]
 * xref:tasks/task-imgs.adoc[]
 * xref:tasks/task-http.adoc[]
