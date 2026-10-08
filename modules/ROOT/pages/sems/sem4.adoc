@@ -1,7 +1,7 @@
 :number: 4
 = Seminar {number}
 
-:brief: Bash
+:brief: Bash. Scripts
 :description: DevTools: Seminar {number}. {brief}
 
 image::lecs/{number}.png[width=10%]
@@ -59,6 +59,40 @@ h| stdin h|output
 | `5` | `120`
 |===
 
+.Solution
+[%collapsible]
+====
+
+Loop::
+[,bash]
+----
+read n
+f=1
+
+for (( i=1; i < n; ++i )); do
+	f=$(( f * i ))
+done
+
+echo "$f"
+----
+
+Recursion::
+[,bash]
+----
+function factorial {
+	if (( $1 == 0 )) || (( $1 == 1 )); then
+		echo 1 # Output
+        return 0 # Return code 0 => success
+    fi
+
+    echo $(( $1 * `factorial $(( $1 - 1 ))` ))
+}
+
+read n
+factorial "$n"
+----
+====
+
 === Part 2
 
 Create a script `part-2.sh` which has these options:
@@ -93,6 +127,21 @@ a|
 | `2`
 |===
 
+.Solution
+[%collapsible]
+====
+[,bash]
+----
+count=0
+
+while IFS=',' read -ra line; do
+	count=$(( count + ${#line[@]} ))
+done < "$1"
+
+echo "$count"
+----
+====
+
 == Part 4
 
 Create a script `part-4.sh` which scans the provided directory and prints all the extensions that are present in the directory and how many files have each extension. *Your solution must be a single pipeline!*
@@ -104,6 +153,22 @@ git        1
 gitignore  1
 sh         4
 ----
+
+.Solution
+[%collapsible]
+====
+[,bash]
+----
+find "$1" -type f -print0 | \
+    grep -z -P '.*/[^/]+\..*' | \
+    sed -z -E 's|.*/[^/.]+\.(.*)|\1|g' | \
+    sort -z | \
+    uniq -zc | \
+    tr '\0' '\n' | \
+    sed -E 's|\s*(\S*)\s*(\S*)\s*|\2 \1|g' | \
+    column -t
+----
+====
 
 _Use `column` command to pretty-print the output._
 

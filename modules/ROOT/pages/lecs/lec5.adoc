@@ -1,0 +1,30 @@
+:number: 5
+= Lecture {number}
+:brief: Linux utils. SHAs. Base64. GPG. Archivies & compression. Systemd.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ9wexOWGDeN94Wtwj7YObOF79C_xsrq1FJpww1KrlYdEPkGx9BN3rmB2i-26XlGipHO324wqE_yvtW/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1GNGY2xNIo8ySqNVD6OpVic3wYaPlsKcYY0JWRDZAWxU/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l5?ref_type=heads[Code]

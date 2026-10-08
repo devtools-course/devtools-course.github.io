@@ -1,0 +1,54 @@
+:number: 5
+= Seminar {number}
+
+:brief: Linux utils. XML, JSON, YAML. HTTP. URL. Curl.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRsG6Nb0iSH-BEeiGCZDonxOckfM84IDkW6QdcQn4yhOV26ww5TN6cq7ntIRdnYn0BT3k0KD4YSqX11/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1yyS5ySllayj5WnhGVsCVMqeauAD8pCImhnXW73G96r4/edit?usp=sharing[Google Slides]
+
+== Tasks
+
+To start the server run:
+
+[,console]
+----
+$ docker run --rm -d -p 34567:1111 ghcr.io/devtools-course/task-http:latest
+----
+
+Now you can access the server via `localhost`, port `34567`.
+
+== Part 0
+
+Run a `GET` request to the `/` endpoint.
+
+== Part 1
+
+Run a `GET` request to the `/e` endpoint. What is the response code? Find a flag which makes `curl` fail when the request returns an error code.
+
+== Part 2
+
+Request body is defined by the following class:
+[,kotlin]
+----
+data class pair(
+    val x : Int,
+    val y : Int,
+)
+----
+
+Send a `POST` request to the `/dj` endpoint (`x = 10` and `y = 2`): use JSON request body format.
+
+== Part 3
+
+Now use XML format. Parse the response so that the command output only the number (_You are expected to write a bash pipeline_).

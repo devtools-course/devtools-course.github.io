@@ -1,0 +1,30 @@
+:number: 4
+= Lecture {number}
+:brief: Bash. Autocomplete. SIGHUP. Shebang.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_An8ID74BBJ9VQSWbRKb9PzWs7STP4OYwVHuRdcLeg8a9OtpuIKoHJ5JqN8tM3XExS0tY42721HT4/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1WN8o-ZPfpdjo11XjEIShQFq3y3aql5Ke5mC3mjg5nLQ/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l4?ref_type=heads[Code]

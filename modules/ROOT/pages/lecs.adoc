@@ -10,8 +10,8 @@ a| xref:lecs/lec0.adoc[0] 2+| Course structure. *Linux. FS.* Linux filesystems. 
 a| xref:lecs/lec1.adoc[1] 2+| *Git.* Essential commands. Reset VS Revert. Three trees. Merge VS rebase. Remotes.
 a| xref:lecs/lec2.adoc[2] 2+| *Git.* Internal structure. Stash. Hooks. Submodules. Diff.
 a| xref:lecs/lec3.adoc[3] 2+| *Linux. Terminal.* Terminals. SIGKILL & SIGTERM. Shell workflow & startup. Regex.
-a| xref:lecs/lec4.adoc[4] 2+| *Linux. Utils.* Signals. Systemd. Deb & rpm packages.
-a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SSH. Cryptography. Markdown & Asciidoctor. Man pages. Licenses.
+a| xref:lecs/lec4.adoc[4] 2+| *Bash.* Autocomplete. SIGHUP. Shebang.
+a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SHAs. Base64. GPG. Archivies & compression. Systemd.
 a| xref:lecs/lec6.adoc[6] 2+| *Potpourri.* HTTP. Image & data formats. Data schemas.
 a| xref:lecs/lec7.adoc[7] | *Java build.* JDK tools. CLASSPATH. Java libs. | *C/C++ build.* Compilation stages. Static & shared libs. Installation.
 a| xref:lecs/lec8.adoc[8] | *Java build.* Run configuration. MODULEPATH. Project jigsaw. GraalVM | *C/C\++ build.* GNU Make. C/C++ project conventions.
