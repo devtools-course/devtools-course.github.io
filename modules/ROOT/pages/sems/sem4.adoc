@@ -48,6 +48,30 @@ h| args h|output
 | `script` | `{empty}`
 |===
 
+.Solution
+[%collapsible]
+====
+[,bash]
+----
+file="$1"
+
+case "$file" in
+    .*.* )
+    	echo "${file#*.}"
+    ;;
+    .* )
+        echo
+    ;;
+    *.* )
+    	echo "${file#*.}"
+    ;;
+    * )
+    	echo
+    ;;
+esac
+----
+====
+
 === Part 1
 
 Create a script `part-1.sh` which reads a number `N` from stdin and prints its factorial `N!`.
@@ -102,6 +126,56 @@ Create a script `part-2.sh` which has these options:
 * `-rev|--reverse`
 
 It prints `_INPUT_`{empty}'s characters separated by space. When the `force` option is on, the characters must be printed one per line. When the `rev` option is on, the characters must be printed in the reverse order. When no `input` is provided, the script must exit with a code `13`.
+
+.Solution
+[%collapsible]
+====
+[,bash]
+----
+delim=" "
+isr=0
+
+while (( $# > 0 )); do
+	case "$1" in
+        -f|--force)
+            delim=$'\n'
+        ;;
+        -rev|--reverse)
+            isr=1
+        ;;
+        -i|--input)
+            input=$2
+            shift 1
+        ;;
+    esac
+
+    shift 1
+done
+
+if [ -z "$input" ]; then
+	exit 13
+fi
+
+if (( isr == 1 )); then
+	for (( i=${#input}; i > 0 ; --i )); do
+		if (( i == 1 )); then
+			echo -n "${input:i-1:1}"
+        else
+            echo -n "${input:i-1:1}${delim}"
+        fi
+    done
+else
+	for (( i=0; i < ${#input}; ++i )); do
+		if (( i == ${#input} - 1 )); then
+			echo -n "${input:i:1}"
+        else
+            echo -n "${input:i:1}${delim}"
+        fi
+    done
+fi
+----
+
+====
 
 == Part 3
 
