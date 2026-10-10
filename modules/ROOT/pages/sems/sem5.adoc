@@ -32,9 +32,32 @@ Now you can access the server via `localhost`, port `34567`.
 
 Run a `GET` request to the `/` endpoint.
 
+.Solution
+[%collapsible]
+====
+[,console]
+----
+$ curl localhost:34567/
+Hello, world!
+----
+====
+
 == Part 1
 
 Run a `GET` request to the `/e` endpoint. What is the response code? Find a flag which makes `curl` fail when the request returns an error code.
+
+.Solution
+[%collapsible]
+====
+[,console]
+----
+$ curl --fail-with-body localhost:34567/e
+Service Unavailable
+curl: (22) The requested URL returned error: 503
+$ echo $?
+22
+----
+====
 
 == Part 2
 
@@ -49,6 +72,33 @@ data class pair(
 
 Send a `POST` request to the `/dj` endpoint (`x = 10` and `y = 2`): use JSON request body format.
 
+.Solution
+[%collapsible]
+====
+[,console]
+----
+$ curl --fail-with-body -X POST -H 'Content-Type: application/json' -d '{"x":10,"y":2}' localhost:34567/dj
+{"result":5}
+----
+====
+
 == Part 3
 
-Now use XML format. Parse the response so that the command output only the number (_You are expected to write a bash pipeline_).
+Now use XML format. Parse the response so that the command output only the number (_You are expected to write a bash pipeline_). Use `/dx` endpoint and wrap the XML body in `<req version="1.1">...</req>`.
+
+.Solution
+[%collapsible]
+====
+[,console]
+----
+$ curl --fail-with-body -X POST -H 'Content-Type: application/json' -d '<req version="1.1"><pair><x>10</x><y>2</y></pair></req>' localhost:34567/dx
+<response><result>5</result></response>
+$ curl --fail-with-body -X POST -H 'Content-Type: application/json' -d '<req version="1.1"><pair><x>10</x><y>2</y></pair></req>' localhost:34567/dx | sed -E 's|[^0-9]*([0-9]+)[^0-9]*|\1|g'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    95  100    40  100    55  26560  36520 --:--:-- --:--:-- --:--:-- 95000
+5
+$ curl --fail-with-body -X POST -H 'Content-Type: application/json' -d '<req version="1.1"><pair><x>10</x><y>2</y></pair></req>' localhost:34567/dx 2> /dev/null | sed -E 's|[^0-9]*([0-9]+)[^0-9]*|\1|g'
+5
+----
+====
