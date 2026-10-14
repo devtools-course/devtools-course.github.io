@@ -11,6 +11,7 @@
 * xref:lecs/lec3.adoc[]
 * xref:lecs/lec4.adoc[]
 * xref:lecs/lec5.adoc[]
+* xref:lecs/lec6.adoc[]
 // * _To be published_
 
 .xref:sems.adoc[Seminars]
@@ -20,6 +21,7 @@
 * xref:sems/sem3.adoc[]
 * xref:sems/sem4.adoc[]
 * xref:sems/sem5.adoc[]
+* xref:sems/sem6.adoc[]
 // * _To be published_
 
 .xref:hws.adoc[Assignments]
