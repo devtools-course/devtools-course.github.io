@@ -17,6 +17,8 @@ image::lecs/{number}.png[width=10%]
 
 https://docs.google.com/presentation/d/1yyS5ySllayj5WnhGVsCVMqeauAD8pCImhnXW73G96r4/edit?usp=sharing[Google Slides]
 
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s5?ref_type=heads[Code]
+
 == Tasks
 
 To start the server run:

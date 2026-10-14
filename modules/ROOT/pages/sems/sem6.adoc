@@ -1,0 +1,47 @@
+:number: 6
+= Seminar {number}
+
+:brief: Linux utils. SSH. Man pages.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ-907kh0mPbCcERpPARw6AfY1ntJ52UUiTNZ3MljAnaG7n03oiGSBzY89SmmhgkHNgYfntNGRTYL/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/18qJeCf1gcR3gvbH7r9WZbhux_WrCvr7Soz4FvlJIJgo/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s6?ref_type=heads[Code]
+
+== Tasks
+
+To start the ssh server run:
+
+[,console]
+----
+$ docker run --rm -d -p 22:22 ghcr.io/devtools-course/task-ssh:latest
+----
+
+Now you can access the server via `localhost`.
+
+== Part 0
+
+Do the xref:tasks/task-ftp.adoc[FTP assignment].
+
+== Part 1
+
+Establish a connection to the server. Run `echo 'Hello World!'` using ssh.
+
+== Part 2
+
+Establish a connection to the server. Create a file `out.txt` that contains `42` using ssh.
+
+== Part 3
+
+Create a man page for the `cow` utility from the xref:tasks/task-shell-setup.adoc[] assignment.

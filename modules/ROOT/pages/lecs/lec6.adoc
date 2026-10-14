@@ -1,0 +1,30 @@
+:number: 6
+= Lecture {number}
+:brief: Linux utils. rpm. dpkg. Images. Licenses.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSSny3DV4-vhCCV4elZCqE3SLjgQakQeSm43id1vK7SxZCsXiZSWMx0yM5zOJZpg_R960LbkNyHRvmU/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1PJTLMQ6fdVxcOaEO5m_GWQHjk9KmbDGd9ZsSmnSR4hg/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l6?ref_type=heads[Code]
