@@ -38,6 +38,7 @@ antora:
         - yaml
         - csv
         - kotlin
+        - properties
 
     - require: '@antora/lunr-extension'
       languages: [en, ru]

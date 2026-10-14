@@ -1,0 +1,5 @@
+= Archives
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-ars
+
+include::https://raw.githubusercontent.com/devtools-course/task-ars/refs/heads/main/README.adoc[]
