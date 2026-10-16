@@ -1,0 +1,5 @@
+= Systemd
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-systemd
+
+include::https://raw.githubusercontent.com/devtools-course/task-systemd/refs/heads/systemd/README.adoc[]
