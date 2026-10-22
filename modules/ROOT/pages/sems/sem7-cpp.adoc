@@ -12,7 +12,7 @@ image::lecs/{number}.png[width=10%]
 
 == Slides
 ++++
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ-907kh0mPbCcERpPARw6AfY1ntJ52UUiTNZ3MljAnaG7n03oiGSBzY89SmmhgkHNgYfntNGRTYL/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTx87UtfQ06-CVcdJcl7jxjGmTxoiMtqA9AGlNhsyqJr1LjZAJdIUadMXWSckdcvpx74wlhe9s0ZHPN/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
 ++++
 
 https://docs.google.com/presentation/d/1SPotbO9UbIlXqIj9QzImG7rjiwIzZTvhBae-XhG5HsA/edit?usp=sharing[Google Slides]
