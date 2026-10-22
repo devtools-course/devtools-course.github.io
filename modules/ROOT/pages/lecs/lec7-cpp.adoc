@@ -1,0 +1,30 @@
+:number: 7
+= Lecture {number} (CPP)
+:brief: C/C++ build. Compilation stages. Macros. Header guards. Static & inline modifiers. Mangling. Static & shared libraries.
+:description: DevTools: Lecture {number} (CPP). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQghjOx-12pgnUIdvlE8PPPtQjTEtKgMi4JVbLLeO0_ysO0SxexXusFOi26sfYRWTkQgUNw82-CFK47/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1rXOnL3P8o1Ov6lva-7MvEljUykdXa3S9Hi0G6me74WQ/edit?usp=sharing[Google Slides]
+
+// https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l7-java?ref_type=heads[Code]

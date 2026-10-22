@@ -1,0 +1,23 @@
+:number: 7
+= Seminar {number} (Java)
+
+:brief: Java build.
+:description: DevTools: Seminar {number} (Java). {brief} (Java)
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ-907kh0mPbCcERpPARw6AfY1ntJ52UUiTNZ3MljAnaG7n03oiGSBzY89SmmhgkHNgYfntNGRTYL/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1SPotbO9UbIlXqIj9QzImG7rjiwIzZTvhBae-XhG5HsA/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s7?ref_type=heads[Code]
+
+== Tasks
+

@@ -1,0 +1,73 @@
+:number: 7
+= Seminar {number} (CPP)
+
+:brief: C/CPP build.
+:description: DevTools: Seminar {number} (CPP). {brief} (Java)
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ-907kh0mPbCcERpPARw6AfY1ntJ52UUiTNZ3MljAnaG7n03oiGSBzY89SmmhgkHNgYfntNGRTYL/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1SPotbO9UbIlXqIj9QzImG7rjiwIzZTvhBae-XhG5HsA/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s7?ref_type=heads[Code]
+
+== Tasks
+
+=== Task 0
+
+Use macros to implement custom casserts:
+
+[,cpp]
+----
+int foo() { return 1; }
+int y = 2;
+
+int main() {
+    assert(foo() > y);
+}
+----
+
+Output must be:
+[,console]
+----
+$ ./a.out
+a.out: a.cc:7: int main(): Assertion `foo() > y' failed.
+----
+
+=== Task 1
+
+Update the `assert` macro so that it has two options:
+
+- `assert(_EXPR_)`  --  has the same behaviour
+- `assert(_EXPR_, _MSG_)`  --  add a custom message `_MSG_`
+
+When the sources are compiled with `-DNDEBUG`, all asserts must be ignored, e.g. the code below must not print anything:
+
+[,cpp]
+----
+int foo() { std::cout << "Hi"; return 1; }
+int y = 2;
+
+int main() {
+    assert(foo() > y);
+}
+----
+
+=== Task 2
+
+Try compiling the code below with `-O0` .. `-O3`. What happens?
+
+[,cpp]
+----
+int i = 1;
+while (i > 0) { i++; }
+std::cout << "hi\n";
+----

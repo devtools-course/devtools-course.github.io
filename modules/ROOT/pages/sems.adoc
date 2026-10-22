@@ -13,7 +13,7 @@ a| xref:sems/sem3.adoc[3] 2+| *Linux. Terminal.* Terminals. Share folders. Xdg-o
 a| xref:sems/sem4.adoc[4] 2+| *Bash.* Bash pipelines. Bash scriptingfootnote:[Bash syntax as a home assignment].
 a| xref:sems/sem5.adoc[5] 2+| *Linux. Utils.* HTTP. XML, JSON, YAML. URL. Curl.
 a| xref:sems/sem6.adoc[6] 2+| *Linux. Utils.* SSH. Man pages.
-a| xref:sems/sem7.adoc[7] | *Java build.* IntelliJ IDEA. JDK tools. | *C/C++ build.* CLion. VS Code.
+a| 7 | [xref:sems/sem7-java.adoc[J]] *Java build.* AOT vs JIT. GraalVM. Compilation. Javadoc. IntelliJ IDEA. | [xref:lecs/sems/sem7.adoc[C]] *C/C++ build.* Includes. CLion. VS Code. Debug & sanitizers.
 a| xref:sems/sem8.adoc[8] | *Java build.* JPMS & graal vm practice. | *C/C++ build.* GNU Make practice.
 a| xref:sems/sem9.adoc[9] | *Java build.* Apache maven in IDEA. Practice. | *C/C++ build.* CMake in CLion/VS Code. Practice.
 a| xref:sems/sem10.adoc[10] | *Java build.* Apache maven. Practice. | *C/C++ build.* CMake. Practice.
