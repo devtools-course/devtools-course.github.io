@@ -14,7 +14,7 @@ a| xref:lecs/lec4.adoc[4] 2+| *Bash.* Autocomplete. SIGHUP. Shebang.
 a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SHAs. Base64. GPG. Archivies & compression. Systemd.
 a| xref:lecs/lec6.adoc[6] 2+| *Linux. Utils.* rpm. dpkg. Images. Licenses.
 a| 7 | [xref:lecs/lec7-java.adoc[J]] *Java build.* JDK vs JRE vs JVM. JDK tools. AOT vs JIT. GraalVM. Compilation. Javadoc. CLASSPATH. | [xref:lecs/lec7-cpp.adoc[C]] *C/C++ build.* Compilation stages. Macros. Header guards. Static & inline modifiers. Mangling. Static & shared libraries.
-a| xref:lecs/lec8.adoc[8] | *Java build.* Run configuration. MODULEPATH. Project jigsaw. GraalVM | *C/C\++ build.* GNU Make. C/C++ project conventions.
+a| 8 | [xref:lecs/lec8-java.adoc[J]] *Java build.* Apache Maven. Intro. | [xref:lecs/lec8-cpp.adoc[C]] *C/C++ build.* GNU Make.
 a| xref:lecs/lec9.adoc[9] | *Java build.* Apache maven. Basics. Profiles. | *C/C++ build.* CMake. Basics. CMake modules.
 a| xref:lecs/lec10.adoc[10] | *Java build.* Apache maven. Plugins. Repositories. Archetypes. | *C/C++ build.* CMake. Packages. Installation. Functions & macros.
 a| xref:lecs/lec11.adoc[11] 2+| *Docker.* Basics.

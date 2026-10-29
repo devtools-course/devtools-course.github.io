@@ -1,0 +1,30 @@
+:number: 8
+= Lecture {number} (CPP)
+:brief: C/C++ build. GNU Make.
+:description: DevTools: Lecture {number} (CPP). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQgj1uQhBz9RxILSvR-0g-JJY2TJTB0rRRkpZF74S5iMpKZgo7B9XocVeDrvIvh06ukrgTcOsuf4kfs/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1YA8sfmiM8EckV3Xzc3slGF48GHZADGd240GuMku1aMA/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l8-cpp?ref_type=heads[Code]

@@ -15,6 +15,9 @@
 * Lecture 7
 ** xref:lecs/lec7-java.adoc[Java]
 ** xref:lecs/lec7-cpp.adoc[CPP]
+* Lecture 8
+** xref:lecs/lec8-java.adoc[Java]
+** xref:lecs/lec8-cpp.adoc[CPP]
 // * _To be published_
 
 .xref:sems.adoc[Seminars]
@@ -28,6 +31,9 @@
 * Seminar 7
 ** xref:sems/sem7-java.adoc[Java]
 ** xref:sems/sem7-cpp.adoc[CPP]
+* Seminar 8
+** xref:sems/sem8-java.adoc[Java]
+** xref:sems/sem8-cpp.adoc[CPP]
 // * _To be published_
 
 .xref:hws.adoc[Assignments]

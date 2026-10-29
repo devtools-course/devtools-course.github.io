@@ -1,0 +1,59 @@
+:number: 8
+= Seminar {number} (CPP)
+
+:brief: C/CPP build. Shared libraries. GNU Make.
+:description: DevTools: Seminar {number} (CPP). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKKm8RKW7OH-h6WyvBxWNXTp7Ka3KCdvY3JPOj7QXGJw9Lq0ObPRC-RhwrNmxOYuT5zqCialH7Q8l_/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1vG1H_AalyLuROMwwun1c5srVE5_7dimttu073zvjMSo/edit?usp=sharing[Google Slides]
+
+
+== Tasks
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s8-cpp?ref_type=heads[Source code]
+
+CAUTION: Use `/usr/local`! Otherwise, you may break package manager.
+
+If you have non-debian OS, use `fenrir task sems/bash && fenrir env up _PROJECT_DIR_`.
+
+=== Task 0
+
+Use `dep-v1` directory.
+
+Create a `Makefile`, containing targets `clean`, `all` (must be executed when running `make`), which creates a dynamic library `logger`. It's name must be `liblogger.so.1.1`.
+
+Create a target `install` which installs the library on your system.
+
+TIP: Use `install` command
+
+=== Task 1
+
+Use `binary` directory.
+
+Create a `Makefile`, containing targets `clean`, `all` (must be executed when running `make`), which creates a binary `screamer` from `main.cc`.
+
+NOTE: It depends on the `logger` library
+
+Create a target `install` which installs the binary on your system.
+
+=== Task 2
+
+Create a similar `Makefile` for `dep-v2`: it's name must be `liblogger.so.1.2`. Install the library and rerun the binary. You must see changes.
+
+=== Task 3
+
+Merge `dep-v1` and `binary` into a single C++ project. Create a unified `Makefile`. Add a target `pack` which builds a `deb` package from your project. It must have `1.0.0` version. Install it and check `screamer` works fine.
+
+=== Task 4
+
+Now replace `dep-v1`{empty}'s code with `dev-v2`. Create a `deb` package with `2.0.0` version. Install the package and check `screamer`.

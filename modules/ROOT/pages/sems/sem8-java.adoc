@@ -1,0 +1,25 @@
+:number: 8
+= Seminar {number} (Java)
+
+:brief: Java build. Apache Maven. Lombok.
+:description: DevTools: Seminar {number} (Java). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+TO BE DONE..
+
+// == Slides
+// ++++
+// <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKKm8RKW7OH-h6WyvBxWNXTp7Ka3KCdvY3JPOj7QXGJw9Lq0ObPRC-RhwrNmxOYuT5zqCialH7Q8l_/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+// ++++
+//
+// https://docs.google.com/presentation/d/1vG1H_AalyLuROMwwun1c5srVE5_7dimttu073zvjMSo/edit?usp=sharing[Google Slides]
+//
+// https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s7?ref_type=heads[Code]
+
+// == Tasks
+
