@@ -2,7 +2,7 @@
 = Seminar {number} (CPP)
 
 :brief: C/CPP build.
-:description: DevTools: Seminar {number} (CPP). {brief} (Java)
+:description: DevTools: Seminar {number} (CPP). {brief}
 
 image::lecs/{number}.png[width=10%]
 

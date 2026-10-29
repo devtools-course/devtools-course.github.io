@@ -27,4 +27,4 @@ image::lecs/{number}.png[width=10%]
 
 https://docs.google.com/presentation/d/1rXOnL3P8o1Ov6lva-7MvEljUykdXa3S9Hi0G6me74WQ/edit?usp=sharing[Google Slides]
 
-// https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l7-java?ref_type=heads[Code]
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l7-cpp?ref_type=heads[Code]
