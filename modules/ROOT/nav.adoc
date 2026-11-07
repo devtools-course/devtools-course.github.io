@@ -48,6 +48,6 @@
 * xref:tasks/task-bash.adoc[]
 * xref:tasks/task-ssh.adoc[]
 * xref:tasks/task-systemd.adoc[]
-// * xref:tasks/task-imgs.adoc[]
+* xref:tasks/task-packs.adoc[]
 // * xref:tasks/task-make.adoc[]
 // * xref:tasks/task-docker.adoc[]

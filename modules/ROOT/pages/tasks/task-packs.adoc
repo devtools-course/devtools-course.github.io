@@ -1,0 +1,5 @@
+= Packages
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-packs
+
+include::https://raw.githubusercontent.com/devtools-course/task-packs/refs/heads/packs/packs/README.adoc[]
