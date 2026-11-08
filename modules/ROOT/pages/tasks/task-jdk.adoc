@@ -1,0 +1,5 @@
+= JDK tools
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-jdk-tools
+
+include::https://raw.githubusercontent.com/devtools-course/task-jdk-tools/refs/heads/jdk-tools/jdk-tools/README.adoc[]
