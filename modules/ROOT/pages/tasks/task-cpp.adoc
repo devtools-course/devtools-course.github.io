@@ -1,0 +1,5 @@
+= CPP build
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-cpp-build
+
+include::https://raw.githubusercontent.com/devtools-course/task-cpp-build/refs/heads/cpp-build/cpp-build/README.adoc[]

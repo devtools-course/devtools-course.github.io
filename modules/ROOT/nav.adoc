@@ -50,4 +50,4 @@
 * xref:tasks/task-systemd.adoc[]
 * xref:tasks/task-packs.adoc[]
 * xref:tasks/task-jdk.adoc[]
-// * xref:tasks/task-docker.adoc[]
+* xref:tasks/task-cpp.adoc[]
