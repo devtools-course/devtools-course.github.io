@@ -1,0 +1,30 @@
+:number: 10
+= Lecture {number} (CPP)
+:brief: C/C++ build. CMake. Finds. Packages. Installation.
+:description: DevTools: Lecture {number} (CPP). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6tmIdpPkt2lMgDkSbOPpVM1kGI9AtH5XO0f7VUcW5cAKLHajr-cKe-qRdB7LO1GWrdzJ8ExZDPnAH/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1U2iYNLsfsZ2Ik9miAbjMOAHt_-GRHlx6id0EKadkVSU/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l10-cpp?ref_type=heads[Code]
