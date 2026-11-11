@@ -1,0 +1,13 @@
+:number: 9
+= Seminar {number} (CPP)
+
+:brief: C/CPP build. CMake. Practice
+:description: DevTools: Seminar {number} (CPP). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+Follow the white rabbit..

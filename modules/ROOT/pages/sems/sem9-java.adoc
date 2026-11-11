@@ -1,0 +1,33 @@
+:number: 9
+= Seminar {number} (Java)
+
+:brief: Java build. Apache Maven. Maven plugins.
+:description: DevTools: Seminar {number} (Java). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+TO BE DONE..
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5xuNE1CJei9oQVOUELHhp13rgwF53dyknrIZUORKWsbLERGpMZNIhDQwM1SMIrwwrFOdIAf6jUYo6/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/13GOzP8E7lVrVNcmV-ZMer_A47oUvz1yOEgRZuDKkv9U/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s9-java?ref_type=heads[Code]
+
+== Tasks
+
+== Task 0
+
+ ...
+
+== Task 1
+
+The `aggregation` project from the lecture uses fat jars. Refactor the pom files to avoid dependency duplications.
+

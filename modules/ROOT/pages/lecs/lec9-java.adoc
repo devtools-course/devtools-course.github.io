@@ -1,0 +1,30 @@
+:number: 9
+= Lecture {number} (Java)
+:brief: Java build. Apache Maven. Resources. Fat and slim jars. Aggregation & inheritance. Maven repositories.
+:description: DevTools: Lecture {number} (Java). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLdYZPtPJ86S_DIQkZnVk9iT5e4t04Ne_uR7Md89DNyC1xQQHMU0Wuk_8Caapf6b8L3hzjTol4E-hk/pubembed?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1QI8hwXYR3deGNqaBgxc-ByaEBDllcjkz1Hy9lc4xqKg/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l9-java?ref_type=heads[Code]
