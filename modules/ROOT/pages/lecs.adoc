@@ -15,9 +15,9 @@ a| xref:lecs/lec5.adoc[5] 2+| *Linux. Utils.* SHAs. Base64. GPG. Archivies & com
 a| xref:lecs/lec6.adoc[6] 2+| *Linux. Utils.* rpm. dpkg. Images. Licenses.
 a| 7 | [xref:lecs/lec7-java.adoc[J]] *Java build.* JDK vs JRE vs JVM. JDK tools. AOT vs JIT. GraalVM. Compilation. Javadoc. CLASSPATH. | [xref:lecs/lec7-cpp.adoc[C]] *C/C++ build.* Compilation stages. Macros. Header guards. Static & inline modifiers. Mangling. Static & shared libraries.
 a| 8 | [xref:lecs/lec8-java.adoc[J]] *Java build.* Apache Maven. Intro. | [xref:lecs/lec8-cpp.adoc[C]] *C/C++ build.* GNU Make.
-a| xref:lecs/lec9.adoc[9] | *Java build.* Apache maven. Basics. Profiles. | *C/C++ build.* CMake. Basics. CMake modules.
-a| xref:lecs/lec10.adoc[10] | *Java build.* Apache maven. Plugins. Repositories. Archetypes. | *C/C++ build.* CMake. Packages. Installation. Functions & macros.
-a| xref:lecs/lec11.adoc[11] 2+| *Docker.* Basics.
+a| 9 | [xref:lecs/lec9-java.adoc[J]] *Java build.* Apache Maven. Apache Maven. Resources. Fat and slim jars. Aggregation & inheritance. Maven repositories. | [xref:lecs/lec9-cpp.adoc[C]] *C/C++ build.* CMake. Build. Modules.
+a| 10 | [xref:lecs/lec10-java.adoc[J]] *Java.* Project jigsaw. Jpackage & jlink. | [xref:lecs/lec10-cpp.adoc[C]] *C/C++ build.* CMake. Finds. Packages. Installation.
+a| xref:lecs/lec11.adoc[11] 2+| *Docker.* Virtualization. Containerization. Docker client & engine. Registries. Docker images.
 a| xref:lecs/lec12.adoc[12] 2+| *Docker.* Mounts. Networks. Healthcheck. Buildx plugin.
 a| xref:lecs/lec13.adoc[13] 2+| *CI.* GitLab CI. Basics.
 a| xref:lecs/lec14.adoc[14] 2+| *CI.* GitLab pages. Antora.

@@ -22,8 +22,9 @@
 ** xref:lecs/lec9-java.adoc[Lecture 9 (Java)]
 ** xref:lecs/lec9-cpp.adoc[Lecture 9 (CPP)]
 * Lecture 10
-// ** xref:lecs/lec10-java.adoc[Java]
+** xref:lecs/lec10-java.adoc[Lecture 10 (Java)]
 ** xref:lecs/lec10-cpp.adoc[Lecture 10 (CPP)]
+* xref:lecs/lec11.adoc[]
 // * _To be published_
 
 .xref:sems.adoc[Seminars]
@@ -41,12 +42,12 @@
 ** xref:sems/sem8-java.adoc[Seminar 8 (Java)]
 ** xref:sems/sem8-cpp.adoc[Seminar 8 (CPP)]
 * Seminar 9
-** xref:sems/sem8-java.adoc[Seminar 9 (Java)]
-** xref:sems/sem8-cpp.adoc[Seminar 9 (CPP)]
-// ** xref:sems/sem8-cpp.adoc[CPP]
+** xref:sems/sem9-java.adoc[Seminar 9 (Java)]
+** xref:sems/sem9-cpp.adoc[Seminar 9 (CPP)]
 * Seminar 10
-// ** xref:sems/sem8-java.adoc[Java]
-// ** xref:sems/sem8-cpp.adoc[CPP]
+** xref:sems/sem10-java.adoc[Java]
+** xref:sems/sem10-cpp.adoc[CPP]
+* xref:sems/sem11.adoc[]
 // * _To be published_
 
 .xref:hws.adoc[Assignments]

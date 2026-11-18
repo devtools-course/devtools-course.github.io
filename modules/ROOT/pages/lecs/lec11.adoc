@@ -1,0 +1,30 @@
+:number: 11
+= Lecture {number}
+:brief: Docker. Virtualization. Containerization. Docker client & engine. Registries. Docker images.
+:description: DevTools: Lecture {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_FVfndS_xT8DDx8Bp3FHfuZ_lFu8AJpCy5E2hA-tBQHPvgnrjxMbTG0CXBlimNNzKOIRLDRp8yDzS/pub?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1itlScSIg7kTwIj8vpapaMsDJPAb1NNZiO0lYGA9vKK4/edit?usp=sharing[Google Slides]
+
+// https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l6?ref_type=heads[Code]

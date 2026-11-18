@@ -1,0 +1,43 @@
+:number: 11
+= Seminar {number}
+
+:brief: Docker. Busybox, scratch & alpine. Cache. Multi-stage.
+:description: DevTools: Seminar {number}. {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+> {brief}
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw-Mp_jU9Mo353SSO76TsIOMa4i130PFSPB_5al8wC1P0kqhNcxPbnqSfuuSKy5XutQrGZc5qQ_mii/pub?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1r7XDUgaHqj-yQmmXh0ipH5jKWIBnsW2ZmFnH90bhP0k/edit?usp=sharing[Google Slides]
+
+// https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s6?ref_type=heads[Code]
+
+== Tasks
+
+== Task 0
+
+Enter a `busybox` container. Create a file and exit the container. Stop the container. Restart the container and try reading the file.
+
+== Task 1
+
+Create an `alpine` container: install bash and SDK. Create a `Hello World` program. Copy the program into the container (use `docker cp` command  --  it works the same as `scp`). Compile and run the program. Copy the compiled binary into the host system and try running it.
+
+== Task 2
+
+Create an image which can be started in a detached mode without `-it` option. Create the container and enter it in two different terminals. Check that the can observe each other's changes.
+
+== Task 3
+
+Create a `Hello World` program. Use multi-stage and `scratch` to create an image with a single executable file.
+
+TIP: Use musl and `-static`
+
+TIP: Use Graal VM.
+

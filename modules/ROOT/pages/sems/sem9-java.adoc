@@ -21,13 +21,10 @@ https://docs.google.com/presentation/d/13GOzP8E7lVrVNcmV-ZMer_A47oUvz1yOEgRZuDKk
 
 https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/s9-java?ref_type=heads[Code]
 
-== Tasks
+== Task
 
-== Task 0
+Implement a custom maven-surefire-plugin (JUnit)
 
- ...
+> https://gitlab.com/lBAH/test-plugin[Solution]
 
-== Task 1
-
-The `aggregation` project from the lecture uses fat jars. Refactor the pom files to avoid dependency duplications.
 

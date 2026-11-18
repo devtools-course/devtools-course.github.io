@@ -1,0 +1,30 @@
+:number: 10
+= Lecture {number} (Java)
+:brief: Java. Project jigsaw. Jpackage & jlink.
+:description: DevTools: Lecture {number} (Java). {brief}
+
+image::lecs/{number}.png[width=10%]
+
+{empty} +
+
+
+> {brief}
+
+// == Video
+//
+// [TIP.todo]
+// ====
+// To be published..
+// ====
+// ++++
+// <iframe src="https://www.youtube.com/embed/p5FfbBuEBs8" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+// ++++
+
+== Slides
+++++
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLykTMilwuzhuRwlpmMlcNx_8ckMj6DmV8t-8bsf3trurnVji-cXl3409l8cCOBnPbdJ7hkGK6dMPY/pub?start=false&loop=false&delayms=3000" style="width: 100%; aspect-ratio: 10/6; border: none; margin-top: 2em" allowfullscreen></iframe>
+++++
+
+https://docs.google.com/presentation/d/1I5N-7JGfWmcCasQFJ4v3HszTM25kl_oLxp8KDYrwsAA/edit?usp=sharing[Google Slides]
+
+https://gitlab.com/ygdrasil/devtools/lectures/-/tree/main/l10-java?ref_type=heads[Code]
