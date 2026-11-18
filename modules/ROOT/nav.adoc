@@ -45,8 +45,8 @@
 ** xref:sems/sem9-java.adoc[Seminar 9 (Java)]
 ** xref:sems/sem9-cpp.adoc[Seminar 9 (CPP)]
 * Seminar 10
-** xref:sems/sem10-java.adoc[Java]
-** xref:sems/sem10-cpp.adoc[CPP]
+** xref:sems/sem10-java.adoc[Seminar 10 (Java)]
+** xref:sems/sem10-cpp.adoc[Seminar 10 (CPP)]
 * xref:sems/sem11.adoc[]
 // * _To be published_
 
