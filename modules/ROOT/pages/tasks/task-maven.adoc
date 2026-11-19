@@ -1,0 +1,5 @@
+= Maven
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-maven
+
+include::https://raw.githubusercontent.com/devtools-course/task-maven/refs/heads/maven/maven/README.adoc[]
