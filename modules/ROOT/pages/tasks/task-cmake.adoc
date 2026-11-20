@@ -1,0 +1,5 @@
+= CMake
+:page-readme:
+:page-repo: https://github.com/devtools-course/task-cmake
+
+include::https://raw.githubusercontent.com/devtools-course/task-cmake/refs/heads/cmake/cmake/README.adoc[]

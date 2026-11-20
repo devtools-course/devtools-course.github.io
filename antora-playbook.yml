@@ -39,6 +39,7 @@ antora:
         - csv
         - kotlin
         - properties
+        - cmake
 
     - require: '@antora/lunr-extension'
       languages: [en, ru]
