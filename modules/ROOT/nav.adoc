@@ -67,3 +67,4 @@
 * xref:tasks/task-cpp.adoc[]
 * xref:tasks/task-maven.adoc[]
 * xref:tasks/task-cmake.adoc[]
+* xref:tasks/task-make.adoc[]
